@@ -1,0 +1,14 @@
+<script>
+	const A=prompt("enter the first positive number:")
+	const B=prompt("enter the second positive number:")
+let max=(A>B)?A:B;
+let C=max;
+while(true){
+if(C% A==0 && C% B==0 )
+{
+  break;
+}
+C++;
+}
+document.write(`the LCM of ${A} and ${B} is :`,C);
+</script>
